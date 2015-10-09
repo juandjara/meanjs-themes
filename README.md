@@ -5,7 +5,7 @@ Mean.js boilerplate (v 0.3.3) extended with bootswatch themes to decorate the na
 The themes module is made public on the topbar menu so everyone can access it.
 It uses the browser's local storage, so every user can select his own theme.
 
-To see in action:
+To see it in action:
 
 1. `git clone` this repo
 
