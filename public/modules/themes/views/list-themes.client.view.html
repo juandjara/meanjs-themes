@@ -1,0 +1,17 @@
+<section class="row" data-ng-controller="ThemesController" data-ng-init="find()">
+	<div class="page-header">
+		<h1>Themes 
+            <small>powered by <a href="http://bootswatch.com">bootswatch</a></small>
+        </h1>
+	</div>
+    <h2>Current theme: {{currentTheme}}</h2>
+    <div ng-repeat="theme in themes" class="col-md-4 col-sm-6 col-xs-12">
+        <a href="" ng-click="setTheme(theme)">
+            <img alt="{{theme.name}}: {{theme.description}}" 
+                ng-src="{{theme.img}}"
+                style="display:block; height: auto; max-width: 100%; vertical-align: middle;"></img>
+        </a>
+        <br/>
+    </div>
+    
+</section>
